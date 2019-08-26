@@ -1,4 +1,6 @@
 #!/bin/bash
+
+#verificação de arquivo com mais de 24 horas
 Horas_Arquivo=`date -r PrimeiroPrograma.java +%H`
 Horas=`date +%H`
 Minutos_Arquivo=`date -r PrimeiroPrograma.java +%M`
